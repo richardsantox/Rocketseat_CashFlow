@@ -6,5 +6,6 @@ namespace CashFlow.Domain.Repositories.Expenses
     {
         Task AddAsync(Expense expense);
         Task<List<Expense>> GetAll();
+        Task<Expense?> GetById(long id);
     }
 }
