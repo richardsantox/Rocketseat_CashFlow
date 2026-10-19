@@ -104,5 +104,14 @@ namespace CashFlow.Exception {
                 return ResourceManager.GetString("UnknownError", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to An Expense not found...
+        /// </summary>
+        public static string ExpenseNotFound {
+            get {
+                return ResourceManager.GetString("ExpenseNotFound", resourceCulture);
+            }
+        }
     }
 }
